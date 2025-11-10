@@ -1,3 +1,7 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
 MACRO tt_um_mattvenn_relax_osc
   CLASS BLOCK ;
   FOREIGN tt_um_mattvenn_relax_osc ;
@@ -455,11 +459,11 @@ MACRO tt_um_mattvenn_relax_osc
   END VGND
   OBS
       LAYER nwell ;
-        RECT 17.460 16.690 149.170 208.760 ;
+        RECT 11.960 16.690 149.170 208.760 ;
       LAYER li1 ;
-        RECT 17.640 10.590 148.770 208.580 ;
+        RECT 12.140 10.590 148.770 208.580 ;
       LAYER met1 ;
-        RECT 14.100 10.470 148.940 214.940 ;
+        RECT 12.560 10.470 148.940 214.940 ;
       LAYER met2 ;
         RECT 9.720 5.110 149.170 213.530 ;
       LAYER met3 ;

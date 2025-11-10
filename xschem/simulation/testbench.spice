@@ -23,7 +23,7 @@ x6 VDD net3 GND net6 vfollower_parax
 *.param mc_mm_switch=0
 .control
 let vddc = 1.8            ; create a vector vddc and assign 1.8
-repeat 5
+repeat 1
  * alter V1 $&vddc         ; alter the voltage V1 using vector vddc
   tran 500p 2u uic
   let vddc = vddc - 0.1   ; update vddc
@@ -56,18 +56,21 @@ XM3 osc_b osc_b VDD VDD sky130_fd_pr__pfet_01v8 L=2 W=20 nf=1 ad='int((nf+1)/2) 
 + ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
 XM4 osc_a osc_a VDD VDD sky130_fd_pr__pfet_01v8 L=2 W=20 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)'
 + ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
-XR1 osc_a VDD VSS sky130_fd_pr__res_high_po_0p35 L=18 mult=1 m=1
-XR2 osc_b VDD VSS sky130_fd_pr__res_high_po_0p35 L=18 mult=1 m=1
 XC1 right_cap left_cap sky130_fd_pr__cap_mim_m3_1 W=30 L=30 MF=5 m=5
 XM5 cset cset VSS VSS sky130_fd_pr__nfet_01v8 L=2 W=20 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)'
 + ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
 XM6 left_cap cset VSS VSS sky130_fd_pr__nfet_01v8 L=2 W=20 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)'
 + ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
-XR3 cset VDD VSS sky130_fd_pr__res_high_po_0p35 L=20 mult=1 m=1
 XM8 right_cap cset VSS VSS sky130_fd_pr__nfet_01v8 L=2 W=20 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
 + pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
 x1 osc_a VSS VSS VDD VDD osc_out sky130_fd_sc_hd__clkinv_8
 XC2 left_cap right_cap sky130_fd_pr__cap_mim_m3_1 W=30 L=30 MF=5 m=5
+XR4 osc_a net2 VSS sky130_fd_pr__res_high_po_0p69 L=20 mult=1 m=1
+XR1 net2 VDD VSS sky130_fd_pr__res_high_po_0p69 L=20 mult=1 m=1
+XR3 cset net1 VSS sky130_fd_pr__res_high_po_0p69 L=20 mult=1 m=1
+XR2 net3 osc_b VSS sky130_fd_pr__res_high_po_0p69 L=20 mult=1 m=1
+XR5 VDD net3 VSS sky130_fd_pr__res_high_po_0p69 L=20 mult=1 m=1
+XR6 net1 VDD VSS sky130_fd_pr__res_high_po_0p69 L=20 mult=1 m=1
 .ends
 
 

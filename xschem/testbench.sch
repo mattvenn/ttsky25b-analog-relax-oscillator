@@ -185,7 +185,7 @@ value="
 *.param mc_mm_switch=0
 .control
 let vddc = 1.8            ; create a vector vddc and assign 1.8
-repeat 5
+repeat 1
  * alter V1 $&vddc         ; alter the voltage V1 using vector vddc
   tran 500p 2u uic
   let vddc = vddc - 0.1   ; update vddc

@@ -26,8 +26,8 @@ module tt_um_mattvenn_relax_osc (
         );
 
     vfollower vfollower(
-	.in(osc_to_follower),
-	.out(ua[0]),
+	.IN(osc_to_follower),
+	.OUT(ua[0]),
 	.VDD(VPWR),
 	.VSS(VGND)
 	);
