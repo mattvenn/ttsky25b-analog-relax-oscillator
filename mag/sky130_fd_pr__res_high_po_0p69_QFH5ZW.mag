@@ -1,0 +1,59 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1762795590
+<< pwell >>
+rect -235 -2582 235 2582
+<< psubdiff >>
+rect -199 2512 -103 2546
+rect 103 2512 199 2546
+rect -199 2450 -165 2512
+rect 165 2450 199 2512
+rect -199 -2512 -165 -2450
+rect 165 -2512 199 -2450
+rect -199 -2546 -103 -2512
+rect 103 -2546 199 -2512
+<< psubdiffcont >>
+rect -103 2512 103 2546
+rect -199 -2450 -165 2450
+rect 165 -2450 199 2450
+rect -103 -2546 103 -2512
+<< xpolycontact >>
+rect -69 1984 69 2416
+rect -69 -2416 69 -1984
+<< ppolyres >>
+rect -69 -1984 69 1984
+<< locali >>
+rect -199 2512 -103 2546
+rect 103 2512 199 2546
+rect -199 2450 -165 2512
+rect 165 2450 199 2512
+rect -199 -2512 -165 -2450
+rect 165 -2512 199 -2450
+rect -199 -2546 -103 -2512
+rect 103 -2546 199 -2512
+<< viali >>
+rect -53 2001 53 2398
+rect -53 -2398 53 -2001
+<< metal1 >>
+rect -59 2398 59 2410
+rect -59 2001 -53 2398
+rect 53 2001 59 2398
+rect -59 1989 59 2001
+rect -59 -2001 59 -1989
+rect -59 -2398 -53 -2001
+rect 53 -2398 59 -2001
+rect -59 -2410 59 -2398
+<< labels >>
+rlabel psubdiffcont 0 -2529 0 -2529 0 B
+port 1 nsew
+rlabel xpolycontact 0 2381 0 2381 0 R1
+port 2 nsew
+rlabel xpolycontact 0 -2381 0 -2381 0 R2
+port 3 nsew
+<< properties >>
+string FIXED_BBOX -182 -2529 182 2529
+string gencell sky130_fd_pr__res_high_po_0p69
+string library sky130
+string parameters w 0.690 l 20 m 1 nx 1 wmin 0.690 lmin 0.50 class resistor rho 319.8 val 9.834k dummy 0 dw 0.0 term 194.82 sterm 0.0 caplen 0 guard 1 glc 1 grc 1 gtc 1 gbc 1 compatible {sky130_fd_pr__res_high_po_0p35  sky130_fd_pr__res_high_po_0p69 sky130_fd_pr__res_high_po_1p41  sky130_fd_pr__res_high_po_2p85 sky130_fd_pr__res_high_po_5p73} snake 0 full_metal 1 wmax 0.690 n_guard 0 hv_guard 0 vias 1 viagb 0 viagt 0 viagl 0 viagr 0 doports 1
+<< end >>

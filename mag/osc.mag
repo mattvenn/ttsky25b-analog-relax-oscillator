@@ -276,27 +276,27 @@ rect 12932 2934 13036 4122
 rect 16658 4110 17838 4122
 rect 16944 4000 17048 4110
 rect 20226 2812 20330 4336
-use sky130_fd_pr__res_high_po_0p69_42N92Z  sky130_fd_pr__res_high_po_0p69_42N92Z_0
+use sky130_fd_pr__res_high_po_0p69_QFH5ZW  sky130_fd_pr__res_high_po_0p69_QFH5ZW_0
 timestamp 1762791078
 transform 1 0 2935 0 1 9582
 box -235 -2582 235 2582
-use sky130_fd_pr__res_high_po_0p69_42N92Z  sky130_fd_pr__res_high_po_0p69_42N92Z_1
+use sky130_fd_pr__res_high_po_0p69_QFH5ZW  sky130_fd_pr__res_high_po_0p69_QFH5ZW_1
 timestamp 1762791078
 transform 1 0 10435 0 1 9182
 box -235 -2582 235 2582
-use sky130_fd_pr__res_high_po_0p69_42N92Z  sky130_fd_pr__res_high_po_0p69_42N92Z_2
+use sky130_fd_pr__res_high_po_0p69_QFH5ZW  sky130_fd_pr__res_high_po_0p69_QFH5ZW_2
 timestamp 1762791078
 transform 1 0 3535 0 1 9582
 box -235 -2582 235 2582
-use sky130_fd_pr__res_high_po_0p69_42N92Z  sky130_fd_pr__res_high_po_0p69_42N92Z_3
+use sky130_fd_pr__res_high_po_0p69_QFH5ZW  sky130_fd_pr__res_high_po_0p69_QFH5ZW_3
 timestamp 1762791078
 transform 1 0 15835 0 1 9182
 box -235 -2582 235 2582
-use sky130_fd_pr__res_high_po_0p69_42N92Z  sky130_fd_pr__res_high_po_0p69_42N92Z_4
+use sky130_fd_pr__res_high_po_0p69_QFH5ZW  sky130_fd_pr__res_high_po_0p69_QFH5ZW_4
 timestamp 1762791078
 transform 1 0 11035 0 1 9182
 box -235 -2582 235 2582
-use sky130_fd_pr__res_high_po_0p69_42N92Z  sky130_fd_pr__res_high_po_0p69_42N92Z_5
+use sky130_fd_pr__res_high_po_0p69_QFH5ZW  sky130_fd_pr__res_high_po_0p69_QFH5ZW_5
 timestamp 1762791078
 transform 1 0 15235 0 1 9182
 box -235 -2582 235 2582
